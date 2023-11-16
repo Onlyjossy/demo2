@@ -1,0 +1,148 @@
+body{
+    background-color: aliceblue;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    position: fixed;
+    padding: 5px 20px 5px 20px;
+}
+.header img{
+    height: auto;
+    width: 10rem;
+}
+.header .link{
+    float: right;
+    margin-top: 4rem;
+}
+.header a{
+    margin-right: 2rem;
+    color: rgb(143, 5, 5);
+    text-decoration: none;
+    transition: 500ms;
+}
+.header a:hover{
+    color: blue;
+}
+.header-banner{
+    /* background-image: url(/Image/Birdie.jpg); */
+    background: linear-gradient(rgba(255, 0, 0, 0.29), rgba(0, 0, 255, 0.241)), url(Image/Birdie.jpg); 
+    background-size: cover;
+    padding: 10rem 3rem 10rem 3rem;
+}
+.header-banner h1{
+    color: white;
+}
+.header-banner p{
+    color: #fff;
+    width: 50%;
+    line-height: 25px;
+}
+.header-banner button{
+    padding: 10px 25px;
+    background-color: rgba(255, 0, 200, 0.125);
+    border: 2px solid white;
+    color: white;
+    margin-top: 2rem;
+    transition: 500ms;
+}
+.header-banner button:hover{
+    background-color: white;
+    color: red;
+}
+
+/* ABOUT US */
+.about-us{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+.about-us h1{
+    font-size: 35px;
+    display: inline;
+    color: red;
+    /* text-shadow: 4px 4px 4px black; */
+}
+.about-us p{
+    padding: 10px;
+}
+.about-us fieldset{
+    border: 2px solid blue;
+}
+
+/* OUR SERVICES */
+.services{
+    background-color: rgba(0, 0, 255, 0.827);
+    margin-bottom: 6rem;
+    padding: 50px;
+}
+.services h1{
+    font-size: 35px;
+    border-bottom: 3px solid white ;
+    width: 15%;
+}
+.services h2{
+    display: inline;
+}
+.services p{
+    margin-bottom: 2rem;
+}
+/* CONTACT FORM */
+.contact{
+    margin-bottom: 6rem;
+    text-align: center;
+}
+.contact h1{
+    font-size: 35px;
+}
+.contact input{
+    width: 50%;
+    margin-bottom: 1rem;
+    padding: 10px;
+    transition: 500ms;
+    border: 0px;
+}
+.contact input:hover{
+    box-shadow: 2px 2px;
+}
+.contact textarea{
+    width: 51%;
+    margin-bottom: 1rem;
+}
+.contact button{
+    padding: 10px 20px;
+    transition: 500ms;
+    border: 2px solid black;
+}
+.contact button:hover{
+    background-color: blue;
+    color: #fff;
+    border: 2px solid white ;
+}
+/* FOOTER */
+.ending{
+   width: 100%;
+   height: 11rem;
+    background-color: black;
+    padding: 5px 20px 5px 20px;
+     text-align: center;
+     
+}
+.ending a{
+    color: #fff;
+    margin-right: 2rem;
+    text-decoration: none;
+    transition: 500ms;
+
+    
+}
+.ending p{
+    color: #fff;
+    
+}
+.ending a:hover{
+    text-decoration: underline;
+    color: gray;
+}
