@@ -1,6 +1,19 @@
 body{
     background-color: aliceblue;
 }
+
+#image1{
+    height: auto;
+    width: 50%;
+}
+@media screen and (max-width: 450px) {
+    #image1 {
+            width: 100%
+  }
+} 
+
+
+
 .header{
     width: 100%;
     height: auto;
