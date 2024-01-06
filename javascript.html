@@ -6,10 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="greetme"></h1>
+
+    <!-- EVENT -->
+    <h1 id="text">HELLO WORLD</h1>
+    <button onclick="hide()" id="hide">HIDE</button>
+    <button onclick="show()" id="show" style="display: none;">SHOW</button>
+    <br> <br>
+    <h2>ABOUT US</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quod minus, nulla sint aspernatur iste quia repellat, voluptatibus mollitia illum tempora, ab quam aliquid molestias praesentium cupiditate ipsa. Ex, earum?
+        Assumenda nulla odio accusamus! <a href="#" onclick="more()" id="more">read more...</a>
+        <span style="display: none;" id="open">Iusto ipsum enim explicabo reiciendis deserunt labore dolores nobis sed doloribus accusantium eius voluptatibus
+        molestiae, sit et eveniet, illum voluptate veniam voluptatum temporibus numquam assumenda magnam!
+        Facere quas laboriosam mollitia non perspiciatis porro accusantium incidunt autem placeat ratione qui cum dolorum
+        commodi eos quod officia ipsum ullam unde rerum officiis, possimus totam. Maiores at adipisci quasi.
+        Iusto delectus tenetur, cumque voluptatum excepturi quas rerum, corrupti incidunt ad expedita maiores saepe ea culpa
+        quaerat, assumenda voluptates! Iure provident error modi! Consequuntur rem est nisi assumenda commodi vitae.
+        Dolorum, dignissimos dolores, quae exercitationem labore officia asperiores sed fugiat reprehenderit corporis fuga quis
+        odio dicta in modi molestiae molestias voluptates illo nesciunt nam quia facilis voluptatem! Repellendus, ipsum
+        cupiditate. <a href="#" onclick="less()">read less...</a></span> 
+    </p>
+    
 </body>
 </html>
-
+ <script src="app.js"></script>
 <script>
     // console.log(Hello World) 
     // document.write(Hello Planet)
@@ -59,6 +79,7 @@
     //     document.write(myname);
     // }
     // myfunction() ;
+    
     
     function josephProfile(){
         let myname = "Name: Joseph"
@@ -140,7 +161,7 @@
     samuelProfile()
 
     function elizabethProfile(){
-               let myname = "Name: Elizabeth"
+        let myname = "Name: Elizabeth"
         document.write(myname + "<br>");
 
         let myage = "Age: 20"
@@ -177,4 +198,60 @@
         document.write(mynationality + "<br>" + "<br>");
     }
     elizabethProfile()
+
+
+    // OBJECT
+    // let remotecontrol ={
+    //     color: "white",
+    //     material: "plastic",
+    //     battery: "20mAh"    
+    // }
+
+    // document.write(remotecontrol.color)
+
+    // let car ={
+    //     color: "red",
+    //     material: "fibre",
+    //     tyre: "rubber",
+    //     battery: "12.6V",
+    //     glass: "reinforced",
+    //     model: "Toyota",
+    //     spec : "Camry",
+    // }
+
+    // let laptop ={
+    //     colol: "silver",
+    //     size: "small",
+    //     model: "HP",
+    //     spec: "elitebook 360",
+    //     decoration: "stickers",
+    //     battery: "10000mAh"
+    // }
+    //     document.write(car.model + car.spec + "<br>")
+    //     document.write(laptop.model + "<br>")
+
+    // let person ={
+    //     firstname: "Joseph",
+    //     lastname: "Odunuyi",
+    //     race: "white",
+    //     height: "6ft",
+    //     weight: "70kg",
+
+    //     fullname: function(){
+    //         return this.firstname + " " + this.lastname;
+    //     }
+    // }
+
+    //     document.write(person.fullname() + "<br>")
+
+    //     // ARRAY
+    //     let moderncars = new Array("wagon", "benz", "toyota");
+
+    //     moderncars[3] = "ferrari";
+
+    //     document.write(moderncars[2])
+
+        // SWITCH
+
+
 </script>
